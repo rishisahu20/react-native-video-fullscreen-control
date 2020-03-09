@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {
   Text,
   FlatList,
@@ -7,9 +7,6 @@ import {
   View,
   Image,
 } from 'react-native';
-import VideoPlayer from 'react-native-video-controls';
-
-import Orientation from 'react-native-orientation-locker';
 
 import {VideoModel} from './VideoModel';
 import {videos} from './config';
