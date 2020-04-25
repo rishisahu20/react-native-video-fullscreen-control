@@ -108,7 +108,11 @@ export const VideoModel = props => {
   };
 
   return (
-    <Modal animationType={'fade'} transparent={true} visible={props.isVisible}>
+   <Modal
+      animationType={'fade'}
+      supportedOrientations={['portrait', 'landscape']}
+      transparent={true}
+      visible={props.isVisible}>
       <View
         style={styles.ModalWrapper}
         onLayout={event => {
